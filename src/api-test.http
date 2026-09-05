@@ -1,0 +1,11 @@
+### Test POST candidature
+POST http://localhost:8080/api/candidatures
+Content-Type: application/json
+
+{
+  "nom": "Test",
+  "prenoms": "Mike"
+}
+
+
+
