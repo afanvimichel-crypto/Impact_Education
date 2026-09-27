@@ -36,4 +36,9 @@ public class CandidatureController {
     public void supprimer(@PathVariable Long id) {
         candidatureService.supprimer(id);
     }
+
+    @PutMapping("/{id}/mettre-en-etude")
+    public Candidature mettreEnEtude(@PathVariable Long id) {
+        return candidatureService.mettreEnEtude(id);
+    }
 }

@@ -8,6 +8,7 @@ import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.persistence.ManyToOne;
 import java.time.LocalDateTime;
+import  com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 public class PieceJustificative {
     @Id
@@ -18,10 +19,9 @@ public class PieceJustificative {
     private String nomDuFichier;
     private String cheminDuFichier;
     private LocalDateTime dateDeDepot;
+    @JsonIgnore
     @ManyToOne
     private Candidature candidature;
-
-
 
 
 
