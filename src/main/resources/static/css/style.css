@@ -428,7 +428,7 @@ body {
 
 .class-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 18px;
 }
 
@@ -489,4 +489,10 @@ body {
 .class-card:hover p,
 .class-card:hover .class-arrow {
     color: #ffffff;
+}
+.classes-section .school-level .class-grid{
+    margin-bottom: 35px;
+}
+.classes-section .school-level .class-grid:last-child{
+    margin-bottom: 0;
 }
