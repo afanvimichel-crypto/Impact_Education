@@ -1098,3 +1098,82 @@ body {
         font-size: 19px;
     }
 }
+/* VALEURS FONDAMENTALES DE L'ETABLISSEMENT */
+
+.about-values {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.about-values > h3 {
+    font-size: 21px;
+    color: #142b50;
+    margin-bottom: 22px;
+}
+
+.about-value {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.about-value > span {
+    min-width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf2fb;
+    color: #0878b9;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.about-value h4 {
+    font-size: 16px;
+    color: #142b50;
+    margin-bottom: 5px;
+}
+
+.about-value p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}.about-commitments {
+     margin-top: 35px;
+ }
+
+.about-commitments h3 {
+    font-size: 20px;
+    color: #123b63;
+    margin-bottom: 18px;
+}
+
+.about-commitments ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-commitments li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-commitments li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #f28c28;
+    font-weight: bold;
+}
+
+.about-commitments strong {
+    color: #123b63;
+}
