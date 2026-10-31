@@ -886,3 +886,215 @@ body {
         width: 170px;
     }
 }
+/* RESPONSIVITÉ DE L'EN-TÊTE */
+
+@media (max-width: 900px) {
+    .header-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+}
+/* RESPONSIVITÉ DE LA SECTION HERO */
+
+@media (max-width: 650px) {
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-container {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button-primary,
+    .button-secondary {
+        text-align: center;
+    }
+}
+/* RESPONSIVITÉ DES CARTES D'ACCÈS RAPIDE */
+
+@media (max-width: 650px) {
+    .quick-access {
+        padding: 45px 20px;
+    }
+
+    .section-title {
+        gap: 12px;
+    }
+
+    .section-title span {
+        width: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+    }
+
+    .quick-access-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .quick-card {
+        padding: 25px 18px;
+    }
+}
+/* RESPONSIVITÉ DE LA SECTION ÉTABLISSEMENT */
+
+@media (max-width: 650px) {
+    .about-section {
+        padding: 55px 20px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .about-image-placeholder {
+        min-height: 280px;
+    }
+
+    .about-image-placeholder span {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+}
+/* RESPONSIVITÉ DE LA SECTION CLASSES */
+
+@media (max-width: 650px) {
+    .classes-section {
+        padding: 55px 20px;
+    }
+
+    .classes-heading {
+        margin-bottom: 40px;
+    }
+
+    .classes-heading h2 {
+        font-size: 30px;
+    }
+
+    .classes-heading > p:last-child {
+        font-size: 15px;
+    }
+
+    .level-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .level-title h3 {
+        font-size: 24px;
+    }
+
+    .class-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .class-card {
+        min-height: 150px;
+        padding: 24px 20px;
+    }
+
+    .class-card h4 {
+        font-size: 25px;
+    }
+}
+/* RESPONSIVITÉ DE LA SECTION ACTUALITÉS */
+
+@media (max-width: 650px) {
+    .news-section {
+        padding: 55px 20px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+    }
+
+    .news-heading > p:last-child {
+        font-size: 15px;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .news-image {
+        min-height: 160px;
+    }
+
+    .news-content {
+        padding: 20px;
+    }
+
+    .news-content h3 {
+        font-size: 19px;
+    }
+}
+/* RESPONSIVITÉ DE LA SECTION ACTUALITÉS */
+@media (max-width: 650px) {
+    .news-section {
+        padding: 55px 20px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+    }
+
+    .news-heading > p:last-child {
+        font-size: 15px;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .news-image {
+        min-height: 160px;
+    }
+
+    .news-content {
+        padding: 20px;
+    }
+
+    .news-content h3 {
+        font-size: 19px;
+    }
+}
